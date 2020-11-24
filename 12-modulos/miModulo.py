@@ -22,3 +22,5 @@ def calculadora(num1, num2, basicas = False):
         cadena += "division: " + str(divi)
 
     return cadena
+
+    
