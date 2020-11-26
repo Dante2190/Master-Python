@@ -1,8 +1,9 @@
 # importar el modulo
 import sqlite3
 
+
 # abrir conexion
-conexion = sqlite3.connect('pruebas.db')
+conexion = sqlite3.connect('prueba.db')
 
 # crear cursor para poder hacer las consultas 
 cursor = conexion.cursor()
